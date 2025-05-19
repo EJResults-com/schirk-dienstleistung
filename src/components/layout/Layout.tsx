@@ -56,7 +56,7 @@ const Layout: React.FC = () => {
         variants={pageVariants}
       >
         <Outlet />
-        {location.pathname === '/kontakt' || location.pathname === '/' && <ContactCTA />}
+        {location.pathname === '/kontakt' || location.pathname === '/' || location.pathname === '/ueber-uns' && <ContactCTA />}
       </motion.main>
       
       <Footer />
