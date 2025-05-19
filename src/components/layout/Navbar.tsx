@@ -53,7 +53,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollPosition }) => {
 
   const getButtonStyles = () => {
     if (isHomePage) {
-      return 'bg-accent text-primary hover:bg-transparent hover:text-primary hover:border-2 hover:border-accent';
+      return 'bg-accent text-primary hover:bg-transparent hover:text-secondary hover:border-2 hover:border-accent';
     }
     if (isContactPage) {
       return 'bg-transparent text-primary border-2 border-accent hover:bg-accent';
