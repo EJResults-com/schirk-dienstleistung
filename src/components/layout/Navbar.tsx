@@ -74,10 +74,10 @@ const Navbar: React.FC<NavbarProps> = ({ scrollPosition }) => {
             whileTap={{ scale: 0.95 }}
           >
             <img 
-              src="/images/schirk-dienstleistungen-logo.png" 
-              alt="Schirk Dienstleistungen Logo" 
-              className="h-12 w-auto invert"
-            />
+  src="/images/schirk-dienstleistungen-logo.png" 
+  alt="Schirk Dienstleistungen Logo" 
+  className={`h-12 w-auto ${isHomePage ? 'invert' : ''}`}
+/>
           </motion.div>
         </Link>
 
