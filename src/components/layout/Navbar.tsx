@@ -76,7 +76,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollPosition }) => {
             <img 
               src="/images/schirk-dienstleistungen-logo.png" 
               alt="Schirk Dienstleistungen Logo" 
-              className="h-12 w-auto"
+              className="h-12 w-auto invert"
             />
           </motion.div>
         </Link>
