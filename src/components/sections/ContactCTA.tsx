@@ -8,7 +8,7 @@ const ContactCTA: React.FC = () => {
       <div 
         className="absolute inset-0 z-0" 
         style={{
-          backgroundImage: "url('https://images.pexels.com/photos/1078884/pexels-photo-1078884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+          backgroundImage: "/images/KontaktCTA.JPG",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
