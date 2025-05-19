@@ -80,7 +80,7 @@ const Services: React.FC = () => {
     {
       title: "Baggerarbeiten",
       description: "Mit modernster Technik und präziser Ausführung bieten wir Ihnen professionelle Baggerarbeiten für jede Anforderung.",
-      imageUrl: "/images/baggerarbeiten-leistungen.JPG",
+      imageUrl: "/images/baggerarbeiten-leistungen.jpg",
       services: [
         {
           icon: <Shovel className="w-6 h-6" />,
@@ -102,7 +102,7 @@ const Services: React.FC = () => {
     {
       title: "Wege- und Flächenarbeiten",
       description: "Wir gestalten und bauen hochwertige Wege, Zufahrten und Flächen für optimale Nutzbarkeit und ansprechendes Design.",
-      imageUrl: "/images/wegeinstandsetzung-leistungen.JPG",
+      imageUrl: "/images/wegeinstandsetzung-leistungen.jpg",
       reversed: true,
       services: [
         {
