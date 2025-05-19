@@ -80,7 +80,7 @@ const Services: React.FC = () => {
     {
       title: "Baggerarbeiten",
       description: "Mit modernster Technik und präziser Ausführung bieten wir Ihnen professionelle Baggerarbeiten für jede Anforderung.",
-      imageUrl: "https://images.pexels.com/photos/4513940/pexels-photo-4513940.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageUrl: "/images/baggerarbeiten-leistungen.JPG",
       services: [
         {
           icon: <Shovel className="w-6 h-6" />,
@@ -102,7 +102,7 @@ const Services: React.FC = () => {
     {
       title: "Wege- und Flächenarbeiten",
       description: "Wir gestalten und bauen hochwertige Wege, Zufahrten und Flächen für optimale Nutzbarkeit und ansprechendes Design.",
-      imageUrl: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageUrl: "/images/wegeinstandsetzung-leistungen.JPG",
       reversed: true,
       services: [
         {
@@ -125,7 +125,7 @@ const Services: React.FC = () => {
     {
       title: "Abbruch- und Holzarbeiten",
       description: "Kontrollierter Rückbau von Gebäuden und Anlagen sowie professionelle Fällarbeiten und Gehölzpflege.",
-      imageUrl: "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageUrl: "/images/Faellarbeiten.JPG",
       services: [
         {
           icon: <Hammer className="w-6 h-6" />,
@@ -181,11 +181,23 @@ const Services: React.FC = () => {
         />
       ))}
 
-      <section className="py-20 bg-primary/5">
-        <div className="container-custom text-center">
+      <section className="py-20 bg-primary/5 relative overflow-hidden">
+        <div 
+          className="absolute inset-0 z-0" 
+          style={{
+            backgroundImage: "url('/images/KontaktCTA.JPG')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed',
+          }}
+        >
+          <div className="absolute inset-0 bg-black/60"></div>
+        </div>
+        
+        <div className="container-custom text-center relative z-10">
           <AnimatedElement>
-            <h2 className="mb-6">Individuelles Angebot einholen</h2>
-            <p className="text-secondary text-lg max-w-2xl mx-auto mb-10">
+            <h2 className="mb-6 text-text-light">Individuelles Angebot einholen</h2>
+            <p className="text-text-light/90 text-lg max-w-2xl mx-auto mb-10">
               Jedes Projekt ist einzigartig. Kontaktieren Sie uns für ein maßgeschneidertes Angebot, 
               das exakt auf Ihre spezifischen Anforderungen zugeschnitten ist.
             </p>

@@ -64,7 +64,7 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="absolute -top-4 -left-4 right-20 bottom-20 bg-accent/20 rounded-lg -z-10"></div>
                 <img 
-                  src="https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="/images/ueber-uns.jpg" 
                   alt="Schirk Dienstleistungen Team" 
                   className="rounded-lg shadow-xl w-full object-cover h-[500px]"
                 />
@@ -109,7 +109,7 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="absolute -top-4 -right-4 left-20 bottom-20 bg-accent/20 rounded-lg -z-10"></div>
                 <img 
-                  src="https://images.pexels.com/photos/4513940/pexels-photo-4513940.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="/images/unser-versprechen.jpg" 
                   alt="Bagger bei Erdarbeiten" 
                   className="rounded-lg shadow-xl w-full object-cover h-[500px]"
                 />
