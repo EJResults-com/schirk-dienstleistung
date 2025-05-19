@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           backgroundImage: "url('/images/Header-Hintergrund.JPG')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          filter: 'brightness(0.4)',
+          filter: 'brightness(0.6)',
         }}
       />
       
